@@ -90,7 +90,3 @@ class Info:
         result = self.db_handler.answer_execute(answer)
         return result
     
-    def answer_checker(self, question_number, right_answer, user_answer):
-
-        if user_answer == right_answer:
-            pass
